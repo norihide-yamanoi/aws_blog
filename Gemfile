@@ -36,8 +36,9 @@ gem 'capistrano-bundler'
 gem 'capistrano-rails'
 gem 'capistrano-rbenv'
 gem 'capistrano3-unicorn'
-gem 'ed25519'
-gem 'bcrypt_pbkdf'
+gem 'ed25519', '>= 1.2', '< 2.0'
+gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
+
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
