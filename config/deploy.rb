@@ -6,7 +6,7 @@ set :application, 'aws_blog'
 
 # cloneするgitのレポジトリ
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'https://github.com/norihide-yamanoi/aws_blog'
+set :repo_url, 'https://github.com/norihide-yamanoi/aws_blog.git'
 
 # deployするブランチ。デフォルトでmainを使用している場合、masterをmainに変更してください。
 set :branch, ENV['BRANCH'] || 'master'
